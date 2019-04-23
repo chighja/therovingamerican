@@ -1,0 +1,32 @@
+header {
+  padding: 0.8em;
+  /* width: 100%; */
+  height: 2em;
+  background-color: #70564f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topLink {
+  font-size: 1em;
+  color: #ece0e2;
+}
+
+.contact {
+  margin: 0.2em;
+  font-size: 1.5em;
+  color: #ece0e2;
+  transition: 0.1s ease-in-out;
+}
+
+.contact:hover {
+  filter: brightness(80%);
+  transform: scale(1.53);
+}
+
+.topLink {
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.banner {
+  max-width: 90em;
+  padding-top: 30%;
+  padding-bottom: 40%;
+  position: relative;
+  background-image: url('../../images/wall.jpg');
+  background-size: contain;
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  /* z-index: -2; */
+  text-align: center;
+}
+
+.titleText {
+  font-family: 'Unica One', cursive;
+  font-size: 10vw;
+  color: #ece0e2;
+  text-shadow: 0.02em 0.02em #463830, 0.03em 0.03em #ece0e2;
+  /* z-index: -1; */
+}
+
+.dirLinks {
+  text-align: center;
+}
+
+.logoImg {
+  cursor: pointer;
+  width: 45%;
+  max-width: 20.3em;
+  transition: 0.2s ease-in-out;
+}
+
+.logoImg:hover {
+  transform: scale(1.1);
+}
