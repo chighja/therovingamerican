@@ -27,6 +27,10 @@ nav {
   transform: scale(1.53);
 }
 
+.contact:active {
+  color: #292c31;
+}
+
 .topLink {
   cursor: pointer;
 }

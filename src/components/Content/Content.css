@@ -1,3 +1,15 @@
 .container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.titleBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  width: 100%;
+  background-color: #70564f;
 }

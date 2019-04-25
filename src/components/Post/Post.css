@@ -1,0 +1,18 @@
+.postBox {
+  margin: 16px 8px;
+  padding: 8px;
+  min-width: 200px;
+  max-width: 235px;
+  max-height: 180px;
+  border: solid #292c31 1px;
+  font-family: 'Nunito Sans', sans-serif;
+  overflow: hidden;
+}
+
+.postTitle {
+  /*  */
+}
+
+.postText {
+  /*  */
+}

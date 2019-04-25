@@ -5,18 +5,29 @@ import './Content.css';
 class Content extends Component {
   render() {
     return (
-      <div className="container">
-        <section className="leftRow">
-          <div>
-            <Post />
-          </div>
-        </section>
+      <div>
+        <div className="titleBanner">
+          <h3 className="titleText">The Roving American</h3>
+        </div>
 
-        <section className="rightRow">
-          <div>
-            <Post />
-          </div>
-        </section>
+        <div className="container">
+          <section className="leftRow">
+            <div>
+              <Post />
+              <Post />
+              <Post />
+            </div>
+          </section>
+
+          <section className="rightRow">
+            <div>
+              <Post />
+              <Post />
+              <Post />
+              <Post />
+            </div>
+          </section>
+        </div>
       </div>
     );
   }
